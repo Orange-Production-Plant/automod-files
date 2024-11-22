@@ -128,10 +128,15 @@ parent_submission:
         template_id: 7e2bc14a-32ef-11e5-a7f7-0ecbbd00e599
     overwrite_flair: true
 ---
-type: poll submission
-title: ["protagonist", "protag", "player character", "main character"]
-poll_option_text: ["Shuichi", "Saihara"]
-set_spoiler: true
+type: any
+author: [Fragrant-Egg-2525, I_lL-10o, Own_Ad_4632, Sea-Outside7756, annualrough6152, OtherwiseCapital9852, Ok-Watercress-9812, Busy-Finger6263, ConversationDue2821, ExpressAd4114, Noation-796, 00000oi111]
+action: remove
+action_reason: jeff
+---
+type: any
+author: [Ornery-Pen-1]
+action: remove
+action_reason: troll
 ---
 type: text submission
 body: ["Makoto", "Kyoko", "Byakuya", "Yasuhiro", "Aoi", "Toko", "Sakura", "Hifumi", "Kiyotaka", "Celestia", "Chihiro", "Mondo", "Leon", "Junko", "Mukuro", "Sayaka", "Naegi", "Kirigiri", "Togami", "Hagakure", "Asahina", "Fukawa", "Ogami", "Yamada", "Ishimaru", "Ludenberg", "Fujisaki", "Owada", "Kuwata", "Enoshima", "Ikusaba", "Maizono", "Kyouko", "Hiro", "Hina", "Taka", "Taeko", "Celes", "Hajime", "Sonia", "Kazuichi", "Fuyuhiko", "Akane", "Teruteru", "Mahiru", "Peko", "Ibuki", "Hiyoko", "Mikan", "Nekomaru", "Gundham", "Chiaki", "Nagito", "Hinata", "Nevermind", "Soda", "Kuzuryu", "Owari", "Hanamura", "Koizumi", "Pekoyama", "Mioda", "Saionji", "Tsumiki", "Nidai", "Tanaka", "Nanami", "Komaeda", "Souda", "Kuzuryuu", "Gundam", "Komaru", "Monaca", "Nagisa", "Shingetsu", "Kotoko", "Utsugi", "Masaru", "Daimon", "Jataro", "Keimuri", "Haiji", "Taichi", "Yuta", "Hiroko", "Shuichi", "Saihara", "Maki", "Harukawa", "Himiko", "Yumeno", "Tsumugi", "Shirogane", "K1-B0", "K1B0", "Keebo", "Kiibo", "Kaede", "Akamatsu", "Rantaro", "Amami", "Ryoma", "Hoshi", "Kirumi", "Tojo", "Angie", "Yonaga", "Tenko", "Chabashira", "Korekiyo", "Shinguji", "Kiyo", "Kork", "Gonta", "Gokuhara", "Miu", "Iruma", "Kaito", "Momota", "Kokichi", "Oma", "Ouma", "Juzo", "Sakakura", "Kyosuke", "Munakata", "Chisa", "Yukizome", "Miaya", "Gekkogahara", "Ruruka", "Ando", "Seiko", "Kimura", "Gozu", "Kazuo", "Tengan", "Koichi", "Kizakura", "Sonosuke", "Izayoi", "Ryota", "Mitarai"]
