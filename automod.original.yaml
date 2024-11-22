@@ -84,7 +84,7 @@ set_spoiler: true
 ---
 type: text submission
 title+body: ["watch order", "which order", "should I watch", "danganronpa order", "dr order", "anime order", "order of danganronpa", "should I play", "watch next", "play next", "watch first", "play first", "future arc first", "despair arc first", "how to start", "watch Danganronpa 2", "watch DR2", "get into Danganronpa", "Danganronpa guide"]
-comment: |
+comment: |-
     It seems you may be asking about the proper order of experiencing the Danganronpa series. The proper order is Danganronpa 1 -> Danganronpa 2 -> Danganronpa Another Episode -> Danganronpa 3 (anime only) -> Danganronpa V3. 
 
     In terms of Danganronpa 3, you are intended to watch it in the following order: Future 1, Despair 1, Future 2, Despair 2, Future 3, and so on. Hope Arc replaces the final Despair Arc episode and serves as the finale. 
