@@ -6,14 +6,6 @@ reports: 300
 action: remove
 action_reason: reports
 ---
-author: [Despair_Miku]
-title (includes): ["Despair"]
-set_sticky: 2
----
-author: [Despair_Miku]
-title (includes): ["Future"]
-set_sticky: 1
----
 type: any
 author:
     account_age: "< 96 hours"
@@ -27,16 +19,6 @@ overwrite_flair: true
 ---
 flair_text: "Tier List"
 set_spoiler: true
----
-author: [AJJ04]
-set_flair: ["Fanart", "artwork"]
----
-author: [Iss09]
-set_flair: ["Fanart", "artwork"]
----
-type: any
-title+body+url (includes): ['tumbral.com']
-action: remove
 ---
 type: any
 body: ["i'm 9", "i'm 10", "i'm 11", "i'm 12", "im 9", "im 10", "im 11", "im 12"]
@@ -151,30 +133,11 @@ title: ["protagonist", "protag", "player character", "main character"]
 poll_option_text: ["Shuichi", "Saihara"]
 set_spoiler: true
 ---
-type: link submission
-title: "Despair Coffee"
-action: remove
-action_reason: spambot
----
-type: any
-author: [Fragrant-Egg-2525, I_lL-10o, Own_Ad_4632, Sea-Outside7756, annualrough6152, OtherwiseCapital9852, Ok-Watercress-9812, Busy-Finger6263, ConversationDue2821, ExpressAd4114, Noation-796, 00000oi111]
-action: remove
-action_reason: jeff
----
-type: any
-author: [Ornery-Pen-1]
-action: remove
-action_reason: troll
----
 type: text submission
 body: ["Makoto", "Kyoko", "Byakuya", "Yasuhiro", "Aoi", "Toko", "Sakura", "Hifumi", "Kiyotaka", "Celestia", "Chihiro", "Mondo", "Leon", "Junko", "Mukuro", "Sayaka", "Naegi", "Kirigiri", "Togami", "Hagakure", "Asahina", "Fukawa", "Ogami", "Yamada", "Ishimaru", "Ludenberg", "Fujisaki", "Owada", "Kuwata", "Enoshima", "Ikusaba", "Maizono", "Kyouko", "Hiro", "Hina", "Taka", "Taeko", "Celes", "Hajime", "Sonia", "Kazuichi", "Fuyuhiko", "Akane", "Teruteru", "Mahiru", "Peko", "Ibuki", "Hiyoko", "Mikan", "Nekomaru", "Gundham", "Chiaki", "Nagito", "Hinata", "Nevermind", "Soda", "Kuzuryu", "Owari", "Hanamura", "Koizumi", "Pekoyama", "Mioda", "Saionji", "Tsumiki", "Nidai", "Tanaka", "Nanami", "Komaeda", "Souda", "Kuzuryuu", "Gundam", "Komaru", "Monaca", "Nagisa", "Shingetsu", "Kotoko", "Utsugi", "Masaru", "Daimon", "Jataro", "Keimuri", "Haiji", "Taichi", "Yuta", "Hiroko", "Shuichi", "Saihara", "Maki", "Harukawa", "Himiko", "Yumeno", "Tsumugi", "Shirogane", "K1-B0", "K1B0", "Keebo", "Kiibo", "Kaede", "Akamatsu", "Rantaro", "Amami", "Ryoma", "Hoshi", "Kirumi", "Tojo", "Angie", "Yonaga", "Tenko", "Chabashira", "Korekiyo", "Shinguji", "Kiyo", "Kork", "Gonta", "Gokuhara", "Miu", "Iruma", "Kaito", "Momota", "Kokichi", "Oma", "Ouma", "Juzo", "Sakakura", "Kyosuke", "Munakata", "Chisa", "Yukizome", "Miaya", "Gekkogahara", "Ruruka", "Ando", "Seiko", "Kimura", "Gozu", "Kazuo", "Tengan", "Koichi", "Kizakura", "Sonosuke", "Izayoi", "Ryota", "Mitarai"]
 body#2: ["kills", "kill", "killed", "killer", "kills", "dies", "dead", "death", "die", "dying", "execution", "executed", "culprit", "murdered", "murderer", "mastermind", "hanged", "blackened", "survives"]
 ~body: ">!"
 set_spoiler: true
----
-type: comment
-body (includes): "achaya"
-action: remove
 ---
 type: any
 body+title (includes): ["TON tokens", "cryptocurrency", "crypto currency", "TON's Airdrop", "TON Airdrop", "layer0", "layerzero", "layer zero", "zksync", "syncswap", "AML KYC", "AML/KYC", "IPTV"]
