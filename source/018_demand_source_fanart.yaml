@@ -1,0 +1,19 @@
+type: link submission
+flair_text: "Fanart"
+set_flair: 
+    text: "Unsourced"
+    template_id: 5f8611f2-6bb7-11ec-81f4-8a2112bad6fd
+~title: ["I drew", "i made", "OC", "by me", "commission"]
+overwrite_flair: true
+moderators_exempt: false
+is_original_content: false
+comment: |
+    Please reply **to this comment** with `I made this` if you made this artwork, or with `Source: [insert link here]` if you found it online.
+
+    Please make sure you are following the **exact** format provided, and to reply **to this comment**. Failure to do so will result in a removal, regardless if a source is provided or not.
+    
+    **Please check if the artist allows reposts**. If the artist states "Do not repost my work" in their bios, it is subject to a removal. (You may need to translate bios if they are not in English). 
+
+    You have 15 minutes to source this fanart before it gets automatically removed.
+
+comment_stickied: true

@@ -1,0 +1,11 @@
+type: comment
+body: [">! "]
+comment: |
+    Your comment was removed because your spoiler tag was incorrectly formatted. While it may show fine on New Reddit, the tag will completely break on Old Reddit. Please place the spoiler marks next to the words you want to spoiler tag *without spaces*, like this:
+
+    `>!spoiler text!<`
+
+    Please repost your comment with the proper spoiler marks for it to display properly, as automod cannot approve edited comments.
+action: remove
+action_reason: "improper tag"
+comment_locked: true

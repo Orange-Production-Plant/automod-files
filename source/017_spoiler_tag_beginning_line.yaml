@@ -1,0 +1,6 @@
+body: "\\>!"
+action: remove
+comment: |
+    Your comment has been removed. There is currently a bug on New Reddit where if you are manually typing the spoiler symbols, and they are the first characters in the line, the spoiler will not show correctly. You can fix this by using Markdown Mode, using the built-in spoiler tool, or rewording your statement so the spoiler is not first on the line.
+action_reason: "improper tag"
+comment_locked: true

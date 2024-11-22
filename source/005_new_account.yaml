@@ -1,0 +1,5 @@
+type: any
+author:
+    account_age: "< 96 hours"
+action: remove
+action_reason: "New account and not verified"

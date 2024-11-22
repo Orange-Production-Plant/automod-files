@@ -1,0 +1,11 @@
+type: comment
+body: ["||"]
+comment: |
+    Your comment was removed because your spoiler tag was incorrectly formatted. Reddit uses different spoiler marks than Discord does, so using Discord's spoiler marks won't hide your spoilers on Reddit. Please format your spoiler marks like this:
+
+    `>!spoiler text!<`
+
+    Please repost your comment with the proper spoiler marks for it to display properly, as automod cannot approve edited comments.
+action: remove
+action_reason: "improper tag"
+comment_locked: true

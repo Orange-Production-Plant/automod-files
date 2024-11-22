@@ -1,0 +1,11 @@
+type: comment
+body: ["pinterest.com", "pin.it", "danbooru.donmai", "aminoapps.com", "goo.gl", "zerochan.net"]
+moderators_exempt: false
+author:
+    is_submitter: true
+parent_submission:
+    flair_text: "Unsourced"
+    action: remove
+comment: |
+    Your post has been removed. We do not allow pinterest, danbooru, or aminoapps as a valid source, as they are image aggregator sites. If you would like to upload this fanart, please find the actual source of the content. 
+action_reason: "improper source"

@@ -1,0 +1,4 @@
+type: any
+body+title: ["crypto"]
+action: spam
+set_locked: true

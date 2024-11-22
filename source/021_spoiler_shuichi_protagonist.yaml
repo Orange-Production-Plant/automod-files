@@ -1,0 +1,4 @@
+type: poll submission
+title: ["protagonist", "protag", "player character", "main character"]
+poll_option_text: ["Shuichi", "Saihara"]
+set_spoiler: true

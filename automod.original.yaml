@@ -1,0 +1,198 @@
+title: sex
+action: remove
+action_reason: "mentions sex"
+---
+reports: 300
+action: remove
+action_reason: reports
+---
+author: [Despair_Miku]
+title (includes): ["Despair"]
+set_sticky: 2
+---
+author: [Despair_Miku]
+title (includes): ["Future"]
+set_sticky: 1
+---
+type: any
+author:
+    account_age: "< 96 hours"
+action: remove
+action_reason: "New account and not verified"
+---
+title: ["tier list", "tierlist", "teir list", "teirlist"]
+set_spoiler: true
+set_flair: ["Tier List", "misc"]
+overwrite_flair: true
+---
+flair_text: "Tier List"
+set_spoiler: true
+---
+author: [AJJ04]
+set_flair: ["Fanart", "artwork"]
+---
+author: [Iss09]
+set_flair: ["Fanart", "artwork"]
+---
+type: any
+title+body+url (includes): ['tumbral.com']
+action: remove
+---
+type: any
+body: ["i'm 9", "i'm 10", "i'm 11", "i'm 12", "im 9", "im 10", "im 11", "im 12"]
+action: report
+report_reason: "underage report: {{match-1}}"
+---
+type: comment
+body: [">! "]
+comment: |
+    Your comment was removed because your spoiler tag was incorrectly formatted. While it may show fine on New Reddit, the tag will completely break on Old Reddit. Please place the spoiler marks next to the words you want to spoiler tag *without spaces*, like this:
+
+    `>!spoiler text!<`
+
+    Please repost your comment with the proper spoiler marks for it to display properly, as automod cannot approve edited comments.
+action: remove
+action_reason: "improper tag"
+comment_locked: true
+---
+type: comment
+body: ["!>", "<!"]
+comment: |
+    Your comment was removed because your spoiler tag was incorrectly formatted. While it may show fine on New Reddit, the tag will completely break on Old Reddit. Please place the spoiler marks next to the words you want to spoiler tag *without spaces*, like this:
+
+    `>!spoiler text!<`
+
+    Please repost your comment with the proper spoiler marks for it to display properly, as automod cannot approve edited comments.
+action: remove
+action_reason: "improper tag"
+comment_locked: true
+---
+type: comment
+body: ["||"]
+comment: |
+    Your comment was removed because your spoiler tag was incorrectly formatted. Reddit uses different spoiler marks than Discord does, so using Discord's spoiler marks won't hide your spoilers on Reddit. Please format your spoiler marks like this:
+
+    `>!spoiler text!<`
+
+    Please repost your comment with the proper spoiler marks for it to display properly, as automod cannot approve edited comments.
+action: remove
+action_reason: "improper tag"
+comment_locked: true
+---
+title: ["judge me based", "make assumptions based"]
+set_spoiler: true
+---
+type: text submission
+title+body: ["watch order", "which order", "should I watch", "danganronpa order", "dr order", "anime order", "order of danganronpa", "should I play", "watch next", "play next", "watch first", "play first", "future arc first", "despair arc first", "how to start", "watch Danganronpa 2", "watch DR2", "get into Danganronpa", "Danganronpa guide"]
+comment: |
+    It seems you may be asking about the proper order of experiencing the Danganronpa series. The proper order is Danganronpa 1 -> Danganronpa 2 -> Danganronpa Another Episode -> Danganronpa 3 (anime only) -> Danganronpa V3. 
+
+    In terms of Danganronpa 3, you are intended to watch it in the following order: Future 1, Despair 1, Future 2, Despair 2, Future 3, and so on. Hope Arc replaces the final Despair Arc episode and serves as the finale. 
+
+    Please note that you cannot go straight from Danganronpa: The Animation to Danganronpa 3, as Danganronpa 2 does not have an adaptation and is vital to understanding the plot of Danganronpa 3. 
+
+    Please see [here](https://www.reddit.com/r/danganronpa/wiki/series) and [here](https://www.reddit.com/r/danganronpa/wiki/faq) for more details.  
+---
+body: "\\>!"
+action: remove
+comment: |
+    Your comment has been removed. There is currently a bug on New Reddit where if you are manually typing the spoiler symbols, and they are the first characters in the line, the spoiler will not show correctly. You can fix this by using Markdown Mode, using the built-in spoiler tool, or rewording your statement so the spoiler is not first on the line.
+action_reason: "improper tag"
+comment_locked: true
+---
+type: link submission
+flair_text: "Fanart"
+set_flair:
+    text: "Unsourced"
+    template_id: 5f8611f2-6bb7-11ec-81f4-8a2112bad6fd
+~title: ["I drew", "i made", "OC", "by me", "commission"]
+overwrite_flair: true
+moderators_exempt: false
+is_original_content: false
+comment: |
+    Please reply **to this comment** with `I made this` if you made this artwork, or with `Source: [insert link here]` if you found it online.
+
+    Please make sure you are following the **exact** format provided, and to reply **to this comment**. Failure to do so will result in a removal, regardless if a source is provided or not.
+
+    **Please check if the artist allows reposts**. If the artist states "Do not repost my work" in their bios, it is subject to a removal. (You may need to translate bios if they are not in English). 
+
+    You have 15 minutes to source this fanart before it gets automatically removed.
+
+comment_stickied: true
+---
+type: comment
+body: ["pinterest.com", "pin.it", "danbooru.donmai", "aminoapps.com", "goo.gl", "zerochan.net"]
+moderators_exempt: false
+author:
+    is_submitter: true
+parent_submission:
+    flair_text: "Unsourced"
+    action: remove
+comment: |
+    Your post has been removed. We do not allow pinterest, danbooru, or aminoapps as a valid source, as they are image aggregator sites. If you would like to upload this fanart, please find the actual source of the content. 
+action_reason: "improper source"
+---
+type: comment
+moderators_exempt: false
+body: ["Source:", "Link:", "i made it", "i made this", "commission"]
+~body: ["pinterest.com", "pin.it", "danbooru.donmai"]
+is_top_level: false
+author:
+    is_submitter: true
+parent_submission:
+    flair_text: "Unsourced"
+    set_flair:
+        text: "Fanart"
+        template_id: 7e2bc14a-32ef-11e5-a7f7-0ecbbd00e599
+    overwrite_flair: true
+---
+type: poll submission
+title: ["protagonist", "protag", "player character", "main character"]
+poll_option_text: ["Shuichi", "Saihara"]
+set_spoiler: true
+---
+type: link submission
+title: "Despair Coffee"
+action: remove
+action_reason: spambot
+---
+type: any
+author: [Fragrant-Egg-2525, I_lL-10o, Own_Ad_4632, Sea-Outside7756, annualrough6152, OtherwiseCapital9852, Ok-Watercress-9812, Busy-Finger6263, ConversationDue2821, ExpressAd4114, Noation-796, 00000oi111]
+action: remove
+action_reason: jeff
+---
+type: any
+author: [Ornery-Pen-1]
+action: remove
+action_reason: troll
+---
+type: text submission
+body: ["Makoto", "Kyoko", "Byakuya", "Yasuhiro", "Aoi", "Toko", "Sakura", "Hifumi", "Kiyotaka", "Celestia", "Chihiro", "Mondo", "Leon", "Junko", "Mukuro", "Sayaka", "Naegi", "Kirigiri", "Togami", "Hagakure", "Asahina", "Fukawa", "Ogami", "Yamada", "Ishimaru", "Ludenberg", "Fujisaki", "Owada", "Kuwata", "Enoshima", "Ikusaba", "Maizono", "Kyouko", "Hiro", "Hina", "Taka", "Taeko", "Celes", "Hajime", "Sonia", "Kazuichi", "Fuyuhiko", "Akane", "Teruteru", "Mahiru", "Peko", "Ibuki", "Hiyoko", "Mikan", "Nekomaru", "Gundham", "Chiaki", "Nagito", "Hinata", "Nevermind", "Soda", "Kuzuryu", "Owari", "Hanamura", "Koizumi", "Pekoyama", "Mioda", "Saionji", "Tsumiki", "Nidai", "Tanaka", "Nanami", "Komaeda", "Souda", "Kuzuryuu", "Gundam", "Komaru", "Monaca", "Nagisa", "Shingetsu", "Kotoko", "Utsugi", "Masaru", "Daimon", "Jataro", "Keimuri", "Haiji", "Taichi", "Yuta", "Hiroko", "Shuichi", "Saihara", "Maki", "Harukawa", "Himiko", "Yumeno", "Tsumugi", "Shirogane", "K1-B0", "K1B0", "Keebo", "Kiibo", "Kaede", "Akamatsu", "Rantaro", "Amami", "Ryoma", "Hoshi", "Kirumi", "Tojo", "Angie", "Yonaga", "Tenko", "Chabashira", "Korekiyo", "Shinguji", "Kiyo", "Kork", "Gonta", "Gokuhara", "Miu", "Iruma", "Kaito", "Momota", "Kokichi", "Oma", "Ouma", "Juzo", "Sakakura", "Kyosuke", "Munakata", "Chisa", "Yukizome", "Miaya", "Gekkogahara", "Ruruka", "Ando", "Seiko", "Kimura", "Gozu", "Kazuo", "Tengan", "Koichi", "Kizakura", "Sonosuke", "Izayoi", "Ryota", "Mitarai"]
+body#2: ["kills", "kill", "killed", "killer", "kills", "dies", "dead", "death", "die", "dying", "execution", "executed", "culprit", "murdered", "murderer", "mastermind", "hanged", "blackened", "survives"]
+~body: ">!"
+set_spoiler: true
+---
+type: comment
+body (includes): "achaya"
+action: remove
+---
+type: any
+body+title (includes): ["TON tokens", "cryptocurrency", "crypto currency", "TON's Airdrop", "TON Airdrop", "layer0", "layerzero", "layer zero", "zksync", "syncswap", "AML KYC", "AML/KYC", "IPTV"]
+action: spam
+set_locked: true
+---
+type: any
+body+title: ["crypto"]
+action: spam
+set_locked: true
+---
+type: submission
+body+title (includes): "wrong answers"
+action: remove
+action_reason: "comment baiting"
+---
+type: any
+author:
+    name: ['TheRealMomCow']
+    set_flair: ['', '']
+    overwrite_flair: true

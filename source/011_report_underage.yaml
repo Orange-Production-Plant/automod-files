@@ -1,0 +1,4 @@
+type: any
+body: ["i'm 9", "i'm 10", "i'm 11", "i'm 12", "im 9", "im 10", "im 11", "im 12"]
+action: report
+report_reason: "underage report: {{match-1}}"
